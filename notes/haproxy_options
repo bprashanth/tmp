@@ -1,0 +1,15 @@
+To send the ip addres of the client/webbrowser to the server/webserver behind it there are a few options:
+ 1- option forwardfor
+ 2- send-proxy
+ 3- source 0.0.0.0 usesrc clientip
+
+1- option forwardfor
+This is an easy option to configure in haproxy, it does require that http layer7 processing is used 'mode http' and the webserver/ webapplication that wants to log or use the ip of the client must use the http-header 'X-Forwarded-For' to read the clientip.
+
+2- send-proxy / send-proxy-v2 / send-proxy-*
+This is can be used both with mode tcp and http, it does however require that the server also understands the proxyprotocol. Some applications have added support for this protocol which adds a few bytes with ip information before the actual request.
+
+3- source 0.0.0.0 usesrc clientip
+This allows any application and any protocol to be used and see the actual client ip as the origin from the incomming connection.
+It does however require to configure IPTABLES or IPFW or other firewall rules to capture reply-traffic, also the haproxy machine must be the defaultroute for the return traffic from the (web-)server.
+
