@@ -1,0 +1,31 @@
+Nginx site root is the root from which it serves files. On ubnutu, this default to /usr/share/nginx/html. On other platforms, it depends on the compile time options passed to nginx. Error page:
+```
+server {
+        listen   80 default;
+        location / {
+                root   /var/www/nginx-default;
+                index  index.html index.htm;
+                error_page 404 /error/404/index.html
+        }
+}
+```
+If the siteroot isn't set ot 755:
+```
+<html>
+<head><title>403 Forbidden</title></head>
+<body bgcolor="white">
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx/1.4.6 (Ubuntu)</center>
+</body>
+</html>
+```
+
+Suggest both:
+```
+sudo chown -R "$USER":www-data /siteroot
+sudo chmod -R 0755 /siteroot
+```
+
+If you don't set a custom 404 page, nginx will serve a hardcoded 404 page: http://lxr.nginx.org/source/src/http/ngx_http_special_response.c#0117.
+
+
