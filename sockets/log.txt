@@ -1,0 +1,1440 @@
+
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 88  Bytes(Size of Packet)
+   |-Identification    : 54289
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51091
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891305422
+   |-Acknowledge Number : 3652112649
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 56951
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 58 D4 11 40 00 29 06 C7 93 34 57 F2 A3         E .X..@.)...4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D1 CE D9 AE D1 09 80 18 03 AB         .....U......€...
+    DE 77 00 00 01 01 08 0A 14 D3 6B 99 0A E0 13 0B         .w........k.....
+Data Payload
+    17 03 03 00 1F 84 F1 9A 35 B8 87 1C 98 5D 66 F1         ........5....]f.
+    0D 9B C6 E4 47 54 69 E6 BF A1 9D AF 62 4E CF 1F         ....GTi.....bN..
+    54 61 E8 53                                             Ta.S
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 88  Bytes(Size of Packet)
+   |-Identification    : 54290
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51090
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891305458
+   |-Acknowledge Number : 3652112649
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 55449
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 58 D4 12 40 00 29 06 C7 92 34 57 F2 A3         E .X..@.)...4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D1 F2 D9 AE D1 09 80 18 03 AB         .....U......€...
+    D8 99 00 00 01 01 08 0A 14 D3 6C FC 0A E0 15 0B         ..........l.....
+Data Payload
+    17 03 03 00 1F 84 F1 9A 35 B8 87 1C 99 5E E3 43         ........5....^.C
+    D0 4A E4 E4 73 B5 75 8C 32 7E 5E 6D 32 72 DA 61         .J..s.u.2~^m2r.a
+    A3 64 F6 9C                                             .d..
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 90  Bytes(Size of Packet)
+   |-Identification    : 54291
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51087
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891305494
+   |-Acknowledge Number : 3652112690
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 15081
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 5A D4 13 40 00 29 06 C7 8F 34 57 F2 A3         E .Z..@.)...4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D2 16 D9 AE D1 32 80 18 03 AB         .....U.....2€...
+    3A E9 00 00 01 01 08 0A 14 D3 6F 2A 0A E0 18 85         :.........o*....
+Data Payload
+    17 03 03 00 21 84 F1 9A 35 B8 87 1C 9A 33 24 F0         ....!...5....3$.
+    B8 BC CB 63 82 08 C1 DF 6A 02 24 6D 9D EA 81 30         ...c....j.$m...0
+    7D A9 CB A7 6A 86                                       }...j.
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 88  Bytes(Size of Packet)
+   |-Identification    : 54292
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51088
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891305532
+   |-Acknowledge Number : 3652112690
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 38893
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 58 D4 14 40 00 29 06 C7 90 34 57 F2 A3         E .X..@.)...4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D2 3C D9 AE D1 32 80 18 03 AB         .....U.<...2€...
+    97 ED 00 00 01 01 08 0A 14 D3 70 A6 0A E0 18 97         ..........p.....
+Data Payload
+    17 03 03 00 1F 84 F1 9A 35 B8 87 1C 9B E9 EB 4F         ........5......O
+    18 4D 2E 06 58 84 8E CE 7E 5C F8 88 05 02 4C 83         .M..X...~\....L.
+    49 14 C5 79                                             I..y
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 138  Bytes(Size of Packet)
+   |-Identification    : 54293
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51037
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891305568
+   |-Acknowledge Number : 3652112690
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 37624
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 8A D4 15 40 00 29 06 C7 5D 34 57 F2 A3         E ....@.)..]4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D2 60 D9 AE D1 32 80 18 03 AB         .....U.`...2€...
+    92 F8 00 00 01 01 08 0A 14 D3 72 AA 0A E0 1A 24         ..........r....$
+Data Payload
+    17 03 03 00 51 84 F1 9A 35 B8 87 1C 9C 5F 7E 5B         ....Q...5...._~[
+    B9 2F 81 BF 5F C8 93 FE 45 73 62 0A 7D DE 98 A5         ./.._...Esb.}...
+    CB F1 37 D2 94 9F C9 F7 67 4D 18 28 BA 93 B8 ED         ..7.....gM.(....
+    02 93 BF 4D 57 C5 3E 4C FB 5B 8C FC EF AE EE 61         ...MW.>L.[.....a
+    3B 7E A8 0E 2A 53 8B 41 46 3E 65 D7 5C DF 54 92         ;~..*S.AF>e.\.T.
+    78 1C 5C 3B 74 C4                                       x.\;t.
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 127  Bytes(Size of Packet)
+   |-Identification    : 26930
+   |-TTL      : 60
+   |-Protocol : 6
+   |-Checksum : 16361
+   |-Source IP        : 216.239.45.142
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 8022
+   |-Destination Port : 60604
+   |-Sequence Number    : 1298093730
+   |-Acknowledge Number : 2344822401
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 446
+   |-Checksum       : 35061
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 00 00 7F 69 32 40 00 3C 06 3F E9 D8 EF 2D 8E         E..i2@.<.?...-.
+    64 74 2A 6C                                             dt*l
+TCP Header
+    1F 56 EC BC 4D 5F 56 A2 8B C3 26 81 80 18 01 BE         .V..M_V...&.€...
+    88 F5 00 00 01 01 08 0A 86 2E 33 E2 0A DF FE EB         ..........3.....
+Data Payload
+    17 03 03 00 46 00 00 00 00 00 00 00 36 E2 26 2F         ....F.......6.&/
+    4B B2 E4 05 49 64 27 A5 37 03 7F EC 6E CB CE 6C         K...Id'.7..n..l
+    84 7C 8F F2 C3 43 C4 6D DB 4E 22 0F 11 52 1B 41         .|...C.m.N"..R.A
+    84 53 C2 E3 B2 D6 14 B7 3C E1 8D 2C 13 5E 0D 77         .S......<..,.^.w
+    CF F4 1F 40 2A E6 E1 F2 86 5D 9C                        ...@*....].
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 87  Bytes(Size of Packet)
+   |-Identification    : 26931
+   |-TTL      : 60
+   |-Protocol : 6
+   |-Checksum : 16400
+   |-Source IP        : 216.239.45.142
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 8022
+   |-Destination Port : 60604
+   |-Sequence Number    : 1298093805
+   |-Acknowledge Number : 2344822480
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 446
+   |-Checksum       : 36447
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 00 00 57 69 33 40 00 3C 06 40 10 D8 EF 2D 8E         E..Wi3@.<.@...-.
+    64 74 2A 6C                                             dt*l
+TCP Header
+    1F 56 EC BC 4D 5F 56 ED 8B C3 26 D0 80 18 01 BE         .V..M_V...&.€...
+    8E 5F 00 00 01 01 08 0A 86 2E 33 F4 0A E0 1C 59         ._........3....Y
+Data Payload
+    17 03 03 00 1E 00 00 00 00 00 00 00 37 AD FA 88         ............7...
+    73 EA DE BE 35 46 F2 8E C3 7D B9 CC 5A A4 72 B8         s...5F...}..Z.r.
+    24 68 B9                                                $h.
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 96  Bytes(Size of Packet)
+   |-Identification    : 54294
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51078
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891305654
+   |-Acknowledge Number : 3652112690
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 27549
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 60 D4 16 40 00 29 06 C7 86 34 57 F2 A3         E .`..@.)...4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D2 B6 D9 AE D1 32 80 18 03 AB         .....U.....2€...
+    6B 9D 00 00 01 01 08 0A 14 D3 73 72 0A E0 1C 24         k.........sr...$
+Data Payload
+    17 03 03 00 27 84 F1 9A 35 B8 87 1C 9D AC A9 A8         ....'...5.......
+    A1 F5 DF 61 B6 BD C7 BB E4 B6 9A 41 28 D5 7E D1         ...a.......A(.~.
+    CF F7 35 5D 12 7D 16 C1 1F 69 ED 8B                     ..5].}...i..
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 52  Bytes(Size of Packet)
+   |-Identification    : 32898
+   |-TTL      : 47
+   |-Protocol : 6
+   |-Checksum : 32422
+   |-Source IP        : 192.30.253.124
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 51536
+   |-Sequence Number    : 3155293337
+   |-Acknowledge Number : 972557393
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 39
+   |-Checksum       : 43473
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 34 80 82 40 00 2F 06 7E A6 C0 1E FD 7C         E .4€.@./.~....|
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB C9 50 BC 11 F4 99 39 F8 0C 51 80 10 00 27         ...P....9..Q€..'
+    A9 D1 00 00 01 01 08 0A A8 C4 15 99 0A DF F5 0B         ................
+Data Payload
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 90  Bytes(Size of Packet)
+   |-Identification    : 54295
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51083
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891305698
+   |-Acknowledge Number : 3652112731
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 7382
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 5A D4 17 40 00 29 06 C7 8B 34 57 F2 A3         E .Z..@.)...4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D2 E2 D9 AE D1 5B 80 18 03 AB         .....U.....[€...
+    1C D6 00 00 01 01 08 0A 14 D3 78 EF 0A E0 22 4A         ..........x..."J
+Data Payload
+    17 03 03 00 21 84 F1 9A 35 B8 87 1C 9E 76 C5 99         ....!...5....v..
+    AB 4B 02 AD 5B 62 3E 59 1D 1F 54 8A B5 0C 9C C6         .K..[b>Y..T.....
+    9F F5 91 8F 51 5C                                       ....Q\
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 88  Bytes(Size of Packet)
+   |-Identification    : 54296
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51084
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891305736
+   |-Acknowledge Number : 3652112731
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 22818
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 58 D4 18 40 00 29 06 C7 8C 34 57 F2 A3         E .X..@.)...4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D3 08 D9 AE D1 5B 80 18 03 AB         .....U.....[€...
+    59 22 00 00 01 01 08 0A 14 D3 7C 49 0A E0 22 5C         Y"........|I.."\
+Data Payload
+    17 03 03 00 1F 84 F1 9A 35 B8 87 1C 9F EC 67 0F         ........5.....g.
+    B0 D5 56 E0 60 54 34 B4 E9 27 8E EF 07 D3 D6 9C         ..V.`T4..'......
+    12 88 A7 7C                                             ...|
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 121  Bytes(Size of Packet)
+   |-Identification    : 54297
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51050
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891305772
+   |-Acknowledge Number : 3652112731
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 33686
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 79 D4 19 40 00 29 06 C7 6A 34 57 F2 A3         E .y..@.)..j4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D3 2C D9 AE D1 5B 80 18 03 AB         .....U.,...[€...
+    83 96 00 00 01 01 08 0A 14 D3 7C 49 0A E0 22 5C         ..........|I.."\
+Data Payload
+    17 03 03 00 40 84 F1 9A 35 B8 87 1C A0 FF 2C 24         ....@...5.....,$
+    11 74 CE 44 B2 D3 EA 80 46 18 43 88 22 73 F0 B3         .t.D...€F.C."s..
+    2D DD 47 00 E1 EE E4 81 A6 CE 87 39 E0 9F 36 DD         -.G........9..6.
+    CC 59 BE 3A 57 71 81 74 AA 03 E0 66 6B F4 C1 17         .Y.:Wq.t...fk...
+    7E A5 7F 29 E8                                          ~.).
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 97  Bytes(Size of Packet)
+   |-Identification    : 54298
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51073
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891305841
+   |-Acknowledge Number : 3652112731
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 14493
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 61 D4 1A 40 00 29 06 C7 81 34 57 F2 A3         E .a..@.)...4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D3 71 D9 AE D1 5B 80 18 03 AB         .....U.q...[€...
+    38 9D 00 00 01 01 08 0A 14 D3 7F 35 0A E0 25 BE         8.........5..%.
+Data Payload
+    17 03 03 00 28 84 F1 9A 35 B8 87 1C A1 99 3A C4         ....(...5.....:.
+    DE 1F 2B 47 97 0C 31 AD 7C 9C 26 B0 1B C6 C2 29         ..+G..1.|.&....)
+    0F 7B 2C EF 3D EA 2B 47 4E A4 16 10 8B                  .{,.=.+GN....
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 52  Bytes(Size of Packet)
+   |-Identification    : 42073
+   |-TTL      : 47
+   |-Protocol : 6
+   |-Checksum : 23246
+   |-Source IP        : 192.30.253.125
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 46592
+   |-Sequence Number    : 1498422287
+   |-Acknowledge Number : 2698175794
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 31
+   |-Checksum       : 42309
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 34 A4 59 40 00 2F 06 5A CE C0 1E FD 7D         E .4.Y@./.Z....}
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB B6 00 59 50 1C 0F A0 D2 E5 32 80 10 00 1F         ....YP.....2€...
+    A5 45 00 00 01 01 08 0A A8 C4 1F 59 0A DF FE BE         .E.........Y....
+Data Payload
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 90  Bytes(Size of Packet)
+   |-Identification    : 54299
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51079
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891305886
+   |-Acknowledge Number : 3652112772
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 23123
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 5A D4 1B 40 00 29 06 C7 87 34 57 F2 A3         E .Z..@.)...4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D3 9E D9 AE D1 84 80 18 03 AB         .....U......€...
+    5A 53 00 00 01 01 08 0A 14 D3 82 B2 0A E0 2C 0D         ZS............,.
+Data Payload
+    17 03 03 00 21 84 F1 9A 35 B8 87 1C A2 5D B2 F1         ....!...5....]..
+    A8 CD 6E AB 14 1A 52 46 E3 55 17 A6 09 33 C9 3D         ..n...RF.U...3.=
+    90 72 2C 59 42 D9                                       .r,YB.
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 83  Bytes(Size of Packet)
+   |-Identification    : 32899
+   |-TTL      : 47
+   |-Protocol : 6
+   |-Checksum : 32390
+   |-Source IP        : 192.30.253.124
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 51536
+   |-Sequence Number    : 3155293337
+   |-Acknowledge Number : 972557393
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 39
+   |-Checksum       : 3822
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 53 80 83 40 00 2F 06 7E 86 C0 1E FD 7C         E .S€.@./.~....|
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB C9 50 BC 11 F4 99 39 F8 0C 51 80 18 00 27         ...P....9..Q€..'
+    0E EE 00 00 01 01 08 0A A8 C4 24 38 0A DF F5 0B         ..........$8....
+Data Payload
+    17 03 03 00 1A AA 39 5B 32 EC 15 BF C8 B2 FB 92         ......9[2.......
+    36 B3 F5 C2 38 D8 A8 FC 53 A1 FA 90 63 A6 51            6...8...S...c.Q
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 52  Bytes(Size of Packet)
+   |-Identification    : 32900
+   |-TTL      : 47
+   |-Protocol : 6
+   |-Checksum : 32420
+   |-Source IP        : 192.30.253.124
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 51536
+   |-Sequence Number    : 3155293368
+   |-Acknowledge Number : 972557428
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 39
+   |-Checksum       : 24570
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 34 80 84 40 00 2F 06 7E A4 C0 1E FD 7C         E .4€.@./.~....|
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB C9 50 BC 11 F4 B8 39 F8 0C 74 80 10 00 27         ...P....9..t€..'
+    5F FA 00 00 01 01 08 0A A8 C4 24 61 0A E0 2F D8         _.........$a../.
+Data Payload
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 258  Bytes(Size of Packet)
+   |-Identification    : 54300
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 50910
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891305924
+   |-Acknowledge Number : 3652112772
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 41833
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 01 02 D4 1C 40 00 29 06 C6 DE 34 57 F2 A3         E ....@.)...4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D3 C4 D9 AE D1 84 80 18 03 AB         .....U......€...
+    A3 69 00 00 01 01 08 0A 14 D3 8A 42 0A E0 2C 20         .i.........B.., 
+Data Payload
+    17 03 03 00 C9 84 F1 9A 35 B8 87 1C A3 B9 FD 65         ........5......e
+    09 E0 39 36 1E 1E 89 A5 81 47 5A 5D F6 7B D2 9F         ..96.....GZ].{..
+    38 2A C4 67 71 62 95 CB FB 3A FB CF 5C 7A 5E 3F         8*.gqb...:..\z^?
+    06 67 F5 F9 F1 C4 C9 38 BB C3 B0 FB AD 3A 7C FB         .g.....8.....:|.
+    BF 2C EA 96 02 89 24 D2 05 41 40 AC 75 5B 90 29         .,....$..A@.u[.)
+    FB F4 C0 18 CB C7 AC 1A AC 36 B3 76 B8 7F 7A 8C         .........6.v.z.
+    AC 59 B6 D7 FB BC 61 7A E7 83 97 2B 07 C0 48 0F         .Y....az...+..H.
+    FE 27 4A D7 5F D2 B3 5A F8 F2 08 AE 2B E2 96 D3         .'J._..Z....+...
+    AD C4 5C 26 E1 AC A4 B3 36 10 C8 F9 10 BF 69 20         ..\&....6.....i 
+    51 20 B4 0F 9A 0C 93 B4 E3 01 52 AC AE 18 9C 30         Q ........R....0
+    69 CB D1 F7 18 4B 47 54 60 DD 64 2A 16 40 1E F5         i....KGT`.d*.@..
+    13 3A 32 10 2F 09 5D 36 49 D7 A7 FD D9 69 25 95         .:2./.]6I....i%.
+    85 25 B2 AD 33 03 14 19 A6 5C 44 8D 61 85               .%..3....\D.a.
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 113  Bytes(Size of Packet)
+   |-Identification    : 54301
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51054
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891306130
+   |-Acknowledge Number : 3652112772
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 37871
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 71 D4 1D 40 00 29 06 C7 6E 34 57 F2 A3         E .q..@.)..n4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D4 92 D9 AE D1 84 80 18 03 AB         .....U......€...
+    93 EF 00 00 01 01 08 0A 14 D3 8A F9 0A E0 33 BE         ..............3.
+Data Payload
+    17 03 03 00 38 84 F1 9A 35 B8 87 1C A4 92 A8 56         ....8...5......V
+    63 48 03 CE 64 CD AD FD FF A8 9E C2 23 17 92 C2         cH..d.......#...
+    46 F6 2B 3B F2 54 C0 45 1B E5 86 EF EF F6 63 BB         F.+;.T.E......c.
+    F7 B8 E9 A0 62 3D EF 22 B0 89 48 F3 DC                  ....b=."..H..
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 90  Bytes(Size of Packet)
+   |-Identification    : 54302
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51076
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891306191
+   |-Acknowledge Number : 3652112813
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 23393
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 5A D4 1E 40 00 29 06 C7 84 34 57 F2 A3         E .Z..@.)...4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D4 CF D9 AE D1 AD 80 18 03 AB         .....U......€...
+    5B 61 00 00 01 01 08 0A 14 D3 8C 77 0A E0 35 D1         [a.........w..5.
+Data Payload
+    17 03 03 00 21 84 F1 9A 35 B8 87 1C A5 96 33 B1         ....!...5.....3.
+    E6 64 F0 92 43 80 72 9D 45 44 1B 01 77 9F 43 5B         .d..C€r.ED..w.C[
+    47 9A 94 C5 2C 4C                                       G...,L
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 91  Bytes(Size of Packet)
+   |-Identification    : 54303
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51074
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891306229
+   |-Acknowledge Number : 3652112813
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 10933
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 5B D4 1F 40 00 29 06 C7 82 34 57 F2 A3         E .[..@.)...4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D4 F5 D9 AE D1 AD 80 18 03 AB         .....U......€...
+    2A B5 00 00 01 01 08 0A 14 D3 8E E6 0A E0 35 E4         *.............5.
+Data Payload
+    17 03 03 00 22 84 F1 9A 35 B8 87 1C A6 A3 0A FC         ...."...5.......
+    F1 C0 85 F2 32 FA 72 EF 51 92 F2 98 24 05 53 91         ....2.r.Q...$.S.
+    35 AB 65 76 28 2C 69                                    5.ev(,i
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 83  Bytes(Size of Packet)
+   |-Identification    : 42074
+   |-TTL      : 47
+   |-Protocol : 6
+   |-Checksum : 23214
+   |-Source IP        : 192.30.253.125
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 46592
+   |-Sequence Number    : 1498422287
+   |-Acknowledge Number : 2698175794
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 31
+   |-Checksum       : 63394
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 53 A4 5A 40 00 2F 06 5A AE C0 1E FD 7D         E .S.Z@./.Z....}
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB B6 00 59 50 1C 0F A0 D2 E5 32 80 18 00 1F         ....YP.....2€...
+    F7 A2 00 00 01 01 08 0A A8 C4 2D EB 0A DF FE BE         ..........-.....
+Data Payload
+    17 03 03 00 1A BE 31 E5 E6 E5 5D DD BF 56 55 CD         ......1...]..VU.
+    57 77 AD 91 D8 B5 4D 97 96 05 F9 59 A2 A5 81            Ww....M....Y...
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 52  Bytes(Size of Packet)
+   |-Identification    : 42075
+   |-TTL      : 47
+   |-Protocol : 6
+   |-Checksum : 23244
+   |-Source IP        : 192.30.253.125
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 46592
+   |-Sequence Number    : 1498422318
+   |-Acknowledge Number : 2698175829
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 31
+   |-Checksum       : 23419
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 34 A4 5B 40 00 2F 06 5A CC C0 1E FD 7D         E .4.[@./.Z....}
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB B6 00 59 50 1C 2E A0 D2 E5 55 80 10 00 1F         ....YP.....U€...
+    5B 7B 00 00 01 01 08 0A A8 C4 2E 14 0A E0 39 8B         [{............9.
+Data Payload
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 127  Bytes(Size of Packet)
+   |-Identification    : 26932
+   |-TTL      : 60
+   |-Protocol : 6
+   |-Checksum : 16359
+   |-Source IP        : 216.239.45.142
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 8022
+   |-Destination Port : 60604
+   |-Sequence Number    : 1298093840
+   |-Acknowledge Number : 2344822480
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 446
+   |-Checksum       : 25077
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 00 00 7F 69 34 40 00 3C 06 3F E7 D8 EF 2D 8E         E..i4@.<.?...-.
+    64 74 2A 6C                                             dt*l
+TCP Header
+    1F 56 EC BC 4D 5F 57 10 8B C3 26 D0 80 18 01 BE         .V..M_W...&.€...
+    61 F5 00 00 01 01 08 0A 86 2E 51 44 0A E0 1C 63         a.........QD...c
+Data Payload
+    17 03 03 00 46 00 00 00 00 00 00 00 38 C9 1C 7A         ....F.......8..z
+    42 C3 81 2A FC D1 89 04 35 02 63 B0 4C B5 7F 6F         B..*....5.c.L.o
+    52 37 75 B9 CB AA 9D 30 90 38 47 69 E4 71 DC 33         R7u....0.8Gi.q.3
+    5C BF CA BC 84 0E 12 B1 1C C3 12 47 1F 3C 02 0F         \..........G.<..
+    FA BE 87 B0 35 10 46 3A 51 4B 91                        ....5.F:QK.
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 0
+   |-IP Total Length   : 87  Bytes(Size of Packet)
+   |-Identification    : 26933
+   |-TTL      : 60
+   |-Protocol : 6
+   |-Checksum : 16398
+   |-Source IP        : 216.239.45.142
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 8022
+   |-Destination Port : 60604
+   |-Sequence Number    : 1298093915
+   |-Acknowledge Number : 2344822559
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 446
+   |-Checksum       : 7097
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 00 00 57 69 35 40 00 3C 06 40 0E D8 EF 2D 8E         E..Wi5@.<.@...-.
+    64 74 2A 6C                                             dt*l
+TCP Header
+    1F 56 EC BC 4D 5F 57 5B 8B C3 27 1F 80 18 01 BE         .V..M_W[..'.€...
+    1B B9 00 00 01 01 08 0A 86 2E 51 46 0A E0 39 AA         ..........QF..9.
+Data Payload
+    17 03 03 00 1E 00 00 00 00 00 00 00 39 94 E8 95         ............9...
+    E7 8B F1 7E 18 D7 DF A5 0F 01 2A AE 8C BE 42 45         ...~......*...BE
+    D5 A5 3A                                                ..:
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 91  Bytes(Size of Packet)
+   |-Identification    : 54304
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51073
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891306268
+   |-Acknowledge Number : 3652112813
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 881
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 5B D4 20 40 00 29 06 C7 81 34 57 F2 A3         E .[. @.)...4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D5 1C D9 AE D1 AD 80 18 03 AB         .....U......€...
+    03 71 00 00 01 01 08 0A 14 D3 93 CE 0A E0 38 58         .q............8X
+Data Payload
+    17 03 03 00 22 84 F1 9A 35 B8 87 1C A7 EC 2F 65         ...."...5...../e
+    01 A9 F1 34 D7 65 22 D4 0A 8F 4D 19 C0 3C 98 31         ...4.e"...M..<.1
+    2E 5A C2 A3 E0 8E 91                                    .Z.....
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 52  Bytes(Size of Packet)
+   |-Identification    : 34479
+   |-TTL      : 47
+   |-Protocol : 6
+   |-Checksum : 30841
+   |-Source IP        : 192.30.253.124
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 51602
+   |-Sequence Number    : 4233769352
+   |-Acknowledge Number : 905071771
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 48
+   |-Checksum       : 46388
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 34 86 AF 40 00 2F 06 78 79 C0 1E FD 7C         E .4..@./.xy...|
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB C9 92 FC 5A 31 88 35 F2 4C 9B 80 10 00 30         .....Z1.5.L.€..0
+    B5 34 00 00 01 01 08 0A A8 C4 33 09 0A E0 12 71         .4........3....q
+Data Payload
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 52  Bytes(Size of Packet)
+   |-Identification    : 37
+   |-TTL      : 47
+   |-Protocol : 6
+   |-Checksum : 65283
+   |-Source IP        : 192.30.253.124
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 51594
+   |-Sequence Number    : 3959060085
+   |-Acknowledge Number : 3254574633
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 46
+   |-Checksum       : 25368
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 34 00 25 40 00 2F 06 FF 03 C0 1E FD 7C         E .4.%@./......|
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB C9 8A EB FA 76 75 C1 FC DE 29 80 10 00 2E         ......vu...)€...
+    63 18 00 00 01 01 08 0A A8 C4 33 09 0A E0 12 71         c.........3....q
+Data Payload
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 52  Bytes(Size of Packet)
+   |-Identification    : 20581
+   |-TTL      : 47
+   |-Protocol : 6
+   |-Checksum : 44739
+   |-Source IP        : 192.30.253.124
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 51596
+   |-Sequence Number    : 3884836330
+   |-Acknowledge Number : 4105502623
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 42
+   |-Checksum       : 41955
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 34 50 65 40 00 2F 06 AE C3 C0 1E FD 7C         E .4Pe@./......|
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB C9 8C E7 8D E5 EA F4 B4 FF 9F 80 10 00 2A         ............€..*
+    A3 E3 00 00 01 01 08 0A A8 C4 33 09 0A E0 12 71         ..........3....q
+Data Payload
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 52  Bytes(Size of Packet)
+   |-Identification    : 14977
+   |-TTL      : 47
+   |-Protocol : 6
+   |-Checksum : 50343
+   |-Source IP        : 192.30.253.124
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 51600
+   |-Sequence Number    : 1538104479
+   |-Acknowledge Number : 1453240707
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 33
+   |-Checksum       : 25927
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 34 3A 81 40 00 2F 06 C4 A7 C0 1E FD 7C         E .4:.@./......|
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB C9 90 5B AD 9C 9F 56 9E B1 83 80 10 00 21         ....[...V...€..!
+    65 47 00 00 01 01 08 0A A8 C4 33 09 0A E0 12 71         eG........3....q
+Data Payload
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 97  Bytes(Size of Packet)
+   |-Identification    : 54305
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51066
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891306307
+   |-Acknowledge Number : 3652112813
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 28632
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 61 D4 21 40 00 29 06 C7 7A 34 57 F2 A3         E .a.!@.)..z4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D5 43 D9 AE D1 AD 80 18 03 AB         .....U.C....€...
+    6F D8 00 00 01 01 08 0A 14 D3 95 C5 0A E0 3D 3E         o.............=>
+Data Payload
+    17 03 03 00 28 84 F1 9A 35 B8 87 1C A8 2B CA 06         ....(...5....+..
+    3F AA 35 AA 4F D4 F8 DD 87 D2 15 C3 FE 2B 9C 94         ?.5.O........+..
+    E5 C4 35 2A AD 2C D0 B2 21 83 2F BB 0B                  ..5*.,..!./..
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 90  Bytes(Size of Packet)
+   |-Identification    : 54306
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51072
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891306352
+   |-Acknowledge Number : 3652112854
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 11597
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 5A D4 22 40 00 29 06 C7 80 34 57 F2 A3         E .Z."@.)..€4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D5 70 D9 AE D1 D6 80 18 03 AB         .....U.p....€...
+    2D 4D 00 00 01 01 08 0A 14 D3 96 3A 0A E0 3F 95         -M.........:..?.
+Data Payload
+    17 03 03 00 21 84 F1 9A 35 B8 87 1C A9 10 42 47         ....!...5.....BG
+    47 B5 26 2F D7 46 A9 DF F0 2D 97 06 7F 99 18 28         G.&/.F...-....(
+    C0 C7 60 BC 89 2F                                       ..`../
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 32
+   |-IP Total Length   : 96  Bytes(Size of Packet)
+   |-Identification    : 54307
+   |-TTL      : 41
+   |-Protocol : 6
+   |-Checksum : 51065
+   |-Source IP        : 52.87.242.163
+   |-Destination IP   : 100.116.42.108
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56622
+   |-Sequence Number    : 2891306390
+   |-Acknowledge Number : 3652112854
+   |-Header Length      : 8 DWORDS or 32 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 1
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 939
+   |-Checksum       : 56162
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    45 20 00 60 D4 23 40 00 29 06 C7 79 34 57 F2 A3         E .`.#@.)..y4W..
+    64 74 2A 6C                                             dt*l
+TCP Header
+    01 BB DD 2E AC 55 D5 96 D9 AE D1 D6 80 18 03 AB         .....U.....
