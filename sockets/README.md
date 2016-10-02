@@ -60,4 +60,4 @@ protocol: ETH_P_IP for IP networks, ETH_P_ALL for all.
 * Close the raw socket
 
 Too much theory leads to more confusion.
-
+Run via `gcc sniffer.c && sudo ./a.out` and packets get logged to log.txt.
