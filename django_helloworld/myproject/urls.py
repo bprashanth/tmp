@@ -17,10 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.http import HttpResponse 
+from .models import Visit
 
 
 def hello_world(request):
-    return HttpResponse("Hello, world!")
+    Visit.objects.create()
+    recent_visit = Visit.objects.latest('timestamp')
+    return HttpResponse(f"Hello, world! {recent_visit.timestamp}")
 
 
 urlpatterns = [

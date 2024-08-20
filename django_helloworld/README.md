@@ -136,12 +136,28 @@ docker exec -it my_django python manage.py migrate
 
    If you see the Django-related tables (like `auth_user`, `django_migrations`, etc.), your Django app is successfully using the PostgreSQL database.
 
-### Recap of Docker Commands
+## Migrations 
 
-1. **Create network**: `docker network create my_network`
-2. **Run PostgreSQL container**: `docker run --name my_postgres -e POSTGRES_USER=myuser -e POSTGRES_PASSWORD=mypassword -e POSTGRES_DB=mydatabase --network my_network -d postgres`
-3. **Build Django Docker image**: `docker build -t my_django_app .`
-4. **Run Django container**: `docker run --name my_django -p 8000:8000 --network my_network -d my_django_app`
-5. **Migrate database**: `docker exec -it my_django python manage.py migrate`
+1. Modify settings.py
+   ```python
+   INSTALLED_APPS = [
+        ...,
+        'myproject', 
+   ]
+   ```
 
-This setup should give you a basic understanding of how Django connects to a PostgreSQL database in a Dockerized environment.
+
+2. Run the migration  
+   ```shell
+   docker exec -it my_django python manage.py makemigrations myproject
+   docker exec -it my_django python manage.py migrate
+   ```
+
+## Database 
+
+1. Exec into the db container 
+   ```shell
+   docker exec -it my_postgres psql -U myuser -d mydatabase
+   \dt
+   SELECT * FROM myproject_visit;
+   ```
