@@ -161,3 +161,27 @@ docker exec -it my_django python manage.py migrate
    \dt
    SELECT * FROM myproject_visit;
    ```
+
+## RDS connectivity 
+
+* public access
+* private access:
+	- created within a VPC
+	- which subnets in your VPC the db will use 
+* Security groups 
+	- virtual firewalls
+	- only allow connections from certain ips
+	- configure this to allow EC2 instance inbound traffic
+	- assign this to all EC2 instances 
+	- assign it to inbound rules for RDS
+* VPC peering/transit gateway to manage EC2s in multiple vpcs 
+* From the ec2 instance 
+   ```shell
+   docker run -it --rm postgres psql -h mydatabase.cfqq88w4qi15.eu-north-1.rds.amazonaws.com -U myuser -d postgres -p 5432
+   ```
+* Create the database `mydatabase`
+   ```shell
+   create database mydatabase;
+   ```
+
+
